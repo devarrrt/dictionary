@@ -1,0 +1,43 @@
+.header {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	height: 35vh;
+	width: 100%;
+	margin-bottom: 20px;
+	color: rgb(232, 232, 232)
+}
+
+.header__title {
+	font-weight: 100;
+	font-size: 6vw;
+	text-transform: uppercase;
+}
+
+
+
+@media (max-width: 900px) {
+  .header {
+    justify-content: space-evenly;
+    height: 25vh;
+  }
+  .header__title {
+    font-size: 10vw;
+		margin-bottom: 20px;
+  }
+}
+
+.header__input {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search {
+  width: 43%;
+}
+
+.select {
+  width: 43%;
+}
